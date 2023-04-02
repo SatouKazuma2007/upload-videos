@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Upload</title>
+</head>
+<body>
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<input type="text" name="title" placeholder="Video Title"><br><br>
+		<input type="file" name="video"><br><br>
+		<input type="submit" value="Upload">
+	</form>
+	<div id="video-container"></div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
